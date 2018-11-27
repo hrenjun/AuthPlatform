@@ -54,7 +54,7 @@ namespace Ctr.AhphOcelot.Middleware
 
             //pipelineBuilder.BuildOcelotPipeline(pipelineConfiguration);
             //使用自定义管道扩展 2018-11-15 金焰的世界
-            pipelineBuilder.BuildAhphOcelotPipeline(pipelineConfiguration);
+            pipelineBuilder.BuildOcelotPipeline(pipelineConfiguration);
 
             var firstDelegate = pipelineBuilder.Build();
 
@@ -88,12 +88,6 @@ namespace Ctr.AhphOcelot.Middleware
             //配置信息缓存，这块需要注意实现方式，因为后期我们需要改造下满足分布式架构,这篇不做讲解
             var internalConfigRepo = builder.ApplicationServices.GetService<IInternalConfigurationRepository>();
             internalConfigRepo.AddOrReplace(internalConfig.Data);
-            //获取中间件配置委托
-            var configurations = builder.ApplicationServices.GetServices<OcelotMiddlewareConfigurationDelegate>();
-            foreach (var configuration in configurations)
-            {
-                await configuration(builder);
-            }
             return GetOcelotConfigAndReturn(internalConfigRepo);
         }
         private static bool IsError(Response response)

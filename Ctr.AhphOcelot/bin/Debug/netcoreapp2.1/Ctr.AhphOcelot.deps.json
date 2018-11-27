@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "783c51a4a1659b70e7f02428a45f1148e9d9a796"
+    "signature": "d6f1d403a65a32d9738f49b92b0a9a9c36c9828a"
   },
   "compilationOptions": {},
   "targets": {
@@ -9,8 +9,7 @@
       "Ctr.AhphOcelot/1.0.0": {
         "dependencies": {
           "Dapper": "1.50.5",
-          "Ocelot": "12.0.1",
-          "System.Data.SqlClient": "4.4.2"
+          "Ocelot": "12.0.1"
         },
         "runtime": {
           "Ctr.AhphOcelot.dll": {}
@@ -18,7 +17,7 @@
       },
       "Dapper/1.50.5": {
         "dependencies": {
-          "System.Data.SqlClient": "4.4.2",
+          "System.Data.SqlClient": "4.4.0",
           "System.Reflection.Emit.Lightweight": "4.3.0",
           "System.Reflection.TypeExtensions": "4.4.0"
         },
@@ -1481,7 +1480,7 @@
           "System.Text.Encoding": "4.3.0"
         }
       },
-      "System.Data.SqlClient/4.4.2": {
+      "System.Data.SqlClient/4.4.0": {
         "dependencies": {
           "Microsoft.Win32.Registry": "4.5.0",
           "System.Security.Principal.Windows": "4.5.0",
@@ -1490,22 +1489,22 @@
         },
         "runtime": {
           "lib/netstandard2.0/System.Data.SqlClient.dll": {
-            "assemblyVersion": "4.2.0.1",
-            "fileVersion": "4.6.25921.2"
+            "assemblyVersion": "4.2.0.0",
+            "fileVersion": "4.6.25519.3"
           }
         },
         "runtimeTargets": {
           "runtimes/unix/lib/netstandard2.0/System.Data.SqlClient.dll": {
             "rid": "unix",
             "assetType": "runtime",
-            "assemblyVersion": "4.2.0.1",
-            "fileVersion": "4.6.25921.2"
+            "assemblyVersion": "4.2.0.0",
+            "fileVersion": "4.6.25519.3"
           },
           "runtimes/win/lib/netstandard2.0/System.Data.SqlClient.dll": {
             "rid": "win",
             "assetType": "runtime",
-            "assemblyVersion": "4.2.0.1",
-            "fileVersion": "4.6.25921.2"
+            "assemblyVersion": "4.2.0.0",
+            "fileVersion": "4.6.25519.3"
           }
         }
       },
@@ -3051,12 +3050,12 @@
       "path": "system.console/4.3.0",
       "hashPath": "system.console.4.3.0.nupkg.sha512"
     },
-    "System.Data.SqlClient/4.4.2": {
+    "System.Data.SqlClient/4.4.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-WdivObMl/7sOR28Y8AX1olXk3XZCg+mzj0wbKJYFoqDULPLeoFeIJp/prOZgyLMUne5wOYFt/h3FA5WYznrbvA==",
-      "path": "system.data.sqlclient/4.4.2",
-      "hashPath": "system.data.sqlclient.4.4.2.nupkg.sha512"
+      "sha512": "sha512-fxb9ghn1k1Ua7FFdlvtiBOD4/PsQvD/fk2KnhS+FK7VC6OggEx6P+lP1P0+KMb5V2dqS1+FbR7HCenoqzJMNIA==",
+      "path": "system.data.sqlclient/4.4.0",
+      "hashPath": "system.data.sqlclient.4.4.0.nupkg.sha512"
     },
     "System.Diagnostics.Debug/4.3.0": {
       "type": "package",
@@ -3397,7 +3396,7 @@
     "System.Text.Encoding.CodePages/4.4.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-6JX7ZdaceBiLKLkYt8zJcp4xTJd1uYyXXEkPw6mnlUIjh1gZPIVKPtRXPmY5kLf6DwZmf5YLwR3QUrRonl7l0A==",
+      "sha512": "sha512-epF1P00AFbqPy5jZx3fpEn5qwlBDZ+dck71xYc/jLibfY6BtoFKOqoj84YHcQWV9HcWb7M13aVJ61XCdK8/3XA==",
       "path": "system.text.encoding.codepages/4.4.0",
       "hashPath": "system.text.encoding.codepages.4.4.0.nupkg.sha512"
     },

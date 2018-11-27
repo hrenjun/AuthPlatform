@@ -11507,11 +11507,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\工具\\core api\\AuthPlatform\\Ctr.AuthPlatform.TestService\\Ctr.AuthPlatform.TestService.csproj",
+      "projectUniqueName": "E:\\工具\\core api\\New\\AuthPlatform\\Ctr.AuthPlatform.TestService\\Ctr.AuthPlatform.TestService.csproj",
       "projectName": "Ctr.AuthPlatform.TestService",
-      "projectPath": "E:\\工具\\core api\\AuthPlatform\\Ctr.AuthPlatform.TestService\\Ctr.AuthPlatform.TestService.csproj",
+      "projectPath": "E:\\工具\\core api\\New\\AuthPlatform\\Ctr.AuthPlatform.TestService\\Ctr.AuthPlatform.TestService.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "E:\\工具\\core api\\AuthPlatform\\Ctr.AuthPlatform.TestService\\obj\\",
+      "outputPath": "E:\\工具\\core api\\New\\AuthPlatform\\Ctr.AuthPlatform.TestService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

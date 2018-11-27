@@ -7,3 +7,12 @@ E:\工具\core api\AuthPlatform\Ctr.AhphOcelot\bin\Debug\netcoreapp2.1\Ctr.AhphO
 E:\工具\core api\AuthPlatform\Ctr.AhphOcelot\obj\Debug\netcoreapp2.1\Ctr.AhphOcelot.dll
 E:\工具\core api\AuthPlatform\Ctr.AhphOcelot\obj\Debug\netcoreapp2.1\Ctr.AhphOcelot.pdb
 E:\工具\core api\AuthPlatform\Ctr.AhphOcelot\obj\Debug\netcoreapp2.1\Ctr.AhphOcelot.csprojAssemblyReference.cache
+E:\工具\core api\New\AuthPlatform\Ctr.AhphOcelot\bin\Debug\netcoreapp2.1\Ctr.AhphOcelot.deps.json
+E:\工具\core api\New\AuthPlatform\Ctr.AhphOcelot\bin\Debug\netcoreapp2.1\Ctr.AhphOcelot.dll
+E:\工具\core api\New\AuthPlatform\Ctr.AhphOcelot\bin\Debug\netcoreapp2.1\Ctr.AhphOcelot.pdb
+E:\工具\core api\New\AuthPlatform\Ctr.AhphOcelot\obj\Debug\netcoreapp2.1\Ctr.AhphOcelot.csproj.CoreCompileInputs.cache
+E:\工具\core api\New\AuthPlatform\Ctr.AhphOcelot\obj\Debug\netcoreapp2.1\Ctr.AhphOcelot.AssemblyInfoInputs.cache
+E:\工具\core api\New\AuthPlatform\Ctr.AhphOcelot\obj\Debug\netcoreapp2.1\Ctr.AhphOcelot.AssemblyInfo.cs
+E:\工具\core api\New\AuthPlatform\Ctr.AhphOcelot\obj\Debug\netcoreapp2.1\Ctr.AhphOcelot.dll
+E:\工具\core api\New\AuthPlatform\Ctr.AhphOcelot\obj\Debug\netcoreapp2.1\Ctr.AhphOcelot.pdb
+E:\工具\core api\New\AuthPlatform\Ctr.AhphOcelot\obj\Debug\netcoreapp2.1\Ctr.AhphOcelot.csprojAssemblyReference.cache

@@ -12,3 +12,16 @@ E:\工具\core api\AuthPlatform\Ctr.AuthPlatform.TestService\obj\Debug\netcoreap
 E:\工具\core api\AuthPlatform\Ctr.AuthPlatform.TestService\obj\Debug\netcoreapp2.1\Ctr.AuthPlatform.TestService.dll
 E:\工具\core api\AuthPlatform\Ctr.AuthPlatform.TestService\obj\Debug\netcoreapp2.1\Ctr.AuthPlatform.TestService.pdb
 E:\工具\core api\AuthPlatform\Ctr.AuthPlatform.TestService\obj\Debug\netcoreapp2.1\Ctr.AuthPlatform.TestService.csprojAssemblyReference.cache
+E:\工具\core api\New\AuthPlatform\Ctr.AuthPlatform.TestService\bin\Debug\netcoreapp2.1\Ctr.AuthPlatform.TestService.deps.json
+E:\工具\core api\New\AuthPlatform\Ctr.AuthPlatform.TestService\bin\Debug\netcoreapp2.1\Ctr.AuthPlatform.TestService.runtimeconfig.json
+E:\工具\core api\New\AuthPlatform\Ctr.AuthPlatform.TestService\bin\Debug\netcoreapp2.1\Ctr.AuthPlatform.TestService.runtimeconfig.dev.json
+E:\工具\core api\New\AuthPlatform\Ctr.AuthPlatform.TestService\bin\Debug\netcoreapp2.1\Ctr.AuthPlatform.TestService.dll
+E:\工具\core api\New\AuthPlatform\Ctr.AuthPlatform.TestService\bin\Debug\netcoreapp2.1\Ctr.AuthPlatform.TestService.pdb
+E:\工具\core api\New\AuthPlatform\Ctr.AuthPlatform.TestService\obj\Debug\netcoreapp2.1\Ctr.AuthPlatform.TestService.csproj.CoreCompileInputs.cache
+E:\工具\core api\New\AuthPlatform\Ctr.AuthPlatform.TestService\obj\Debug\netcoreapp2.1\Ctr.AuthPlatform.TestService.RazorAssemblyInfo.cache
+E:\工具\core api\New\AuthPlatform\Ctr.AuthPlatform.TestService\obj\Debug\netcoreapp2.1\Ctr.AuthPlatform.TestService.RazorAssemblyInfo.cs
+E:\工具\core api\New\AuthPlatform\Ctr.AuthPlatform.TestService\obj\Debug\netcoreapp2.1\Ctr.AuthPlatform.TestService.AssemblyInfoInputs.cache
+E:\工具\core api\New\AuthPlatform\Ctr.AuthPlatform.TestService\obj\Debug\netcoreapp2.1\Ctr.AuthPlatform.TestService.AssemblyInfo.cs
+E:\工具\core api\New\AuthPlatform\Ctr.AuthPlatform.TestService\obj\Debug\netcoreapp2.1\Ctr.AuthPlatform.TestService.RazorTargetAssemblyInfo.cache
+E:\工具\core api\New\AuthPlatform\Ctr.AuthPlatform.TestService\obj\Debug\netcoreapp2.1\Ctr.AuthPlatform.TestService.dll
+E:\工具\core api\New\AuthPlatform\Ctr.AuthPlatform.TestService\obj\Debug\netcoreapp2.1\Ctr.AuthPlatform.TestService.pdb

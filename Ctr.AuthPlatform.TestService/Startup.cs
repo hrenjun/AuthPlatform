@@ -35,10 +35,7 @@ namespace Ctr.AuthPlatform.TestService
             {
                 app.UseDeveloperExceptionPage();
             }
-            else
-            {
-                app.UseHsts();
-            }
+        
 
             app.UseHttpsRedirection();
             app.UseMvc();

@@ -1923,7 +1923,7 @@
           "ref/netstandard1.3/System.Console.dll": {}
         }
       },
-      "System.Data.SqlClient/4.4.2": {
+      "System.Data.SqlClient/4.4.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.Win32.Registry": "4.4.0",
@@ -5458,12 +5458,11 @@
         "system.console.nuspec"
       ]
     },
-    "System.Data.SqlClient/4.4.2": {
-      "sha512": "WdivObMl/7sOR28Y8AX1olXk3XZCg+mzj0wbKJYFoqDULPLeoFeIJp/prOZgyLMUne5wOYFt/h3FA5WYznrbvA==",
+    "System.Data.SqlClient/4.4.0": {
+      "sha512": "fxb9ghn1k1Ua7FFdlvtiBOD4/PsQvD/fk2KnhS+FK7VC6OggEx6P+lP1P0+KMb5V2dqS1+FbR7HCenoqzJMNIA==",
       "type": "package",
-      "path": "system.data.sqlclient/4.4.2",
+      "path": "system.data.sqlclient/4.4.0",
       "files": [
-        ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "lib/MonoAndroid10/_._",
@@ -5519,7 +5518,7 @@
         "runtimes/win/lib/net461/System.Data.SqlClient.dll",
         "runtimes/win/lib/netstandard1.3/System.Data.SqlClient.dll",
         "runtimes/win/lib/netstandard2.0/System.Data.SqlClient.dll",
-        "system.data.sqlclient.4.4.2.nupkg.sha512",
+        "system.data.sqlclient.4.4.0.nupkg.sha512",
         "system.data.sqlclient.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
@@ -7879,10 +7878,11 @@
       ]
     },
     "System.Text.Encoding.CodePages/4.4.0": {
-      "sha512": "6JX7ZdaceBiLKLkYt8zJcp4xTJd1uYyXXEkPw6mnlUIjh1gZPIVKPtRXPmY5kLf6DwZmf5YLwR3QUrRonl7l0A==",
+      "sha512": "epF1P00AFbqPy5jZx3fpEn5qwlBDZ+dck71xYc/jLibfY6BtoFKOqoj84YHcQWV9HcWb7M13aVJ61XCdK8/3XA==",
       "type": "package",
       "path": "system.text.encoding.codepages/4.4.0",
       "files": [
+        ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "lib/MonoAndroid10/_._",
@@ -8653,8 +8653,7 @@
     ".NETCoreApp,Version=v2.1": [
       "Dapper >= 1.50.5",
       "Microsoft.NETCore.App >= 2.1.0",
-      "Ocelot >= 12.0.1",
-      "System.Data.SqlClient >= 4.4.2"
+      "Ocelot >= 12.0.1"
     ]
   },
   "packageFolders": {
@@ -8664,11 +8663,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\工具\\core api\\AuthPlatform\\Ctr.AhphOcelot\\Ctr.AhphOcelot.csproj",
+      "projectUniqueName": "E:\\工具\\core api\\New\\AuthPlatform\\Ctr.AhphOcelot\\Ctr.AhphOcelot.csproj",
       "projectName": "Ctr.AhphOcelot",
-      "projectPath": "E:\\工具\\core api\\AuthPlatform\\Ctr.AhphOcelot\\Ctr.AhphOcelot.csproj",
+      "projectPath": "E:\\工具\\core api\\New\\AuthPlatform\\Ctr.AhphOcelot\\Ctr.AhphOcelot.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "E:\\工具\\core api\\AuthPlatform\\Ctr.AhphOcelot\\obj\\",
+      "outputPath": "E:\\工具\\core api\\New\\AuthPlatform\\Ctr.AhphOcelot\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -8711,10 +8710,6 @@
           "Ocelot": {
             "target": "Package",
             "version": "[12.0.1, )"
-          },
-          "System.Data.SqlClient": {
-            "target": "Package",
-            "version": "[4.4.2, )"
           }
         },
         "imports": [

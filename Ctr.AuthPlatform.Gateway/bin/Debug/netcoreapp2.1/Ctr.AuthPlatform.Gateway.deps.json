@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "477767ff9c305176592625ddecc0a6cb124b831f"
+    "signature": "284291fd793c8d8197799f13410107fc6463ed28"
   },
   "compilationOptions": {
     "defines": [
@@ -27,7 +27,7 @@
           "Ctr.AhphOcelot": "1.0.0",
           "Microsoft.AspNetCore.App": "2.1.1",
           "Microsoft.NETCore.App": "2.1.0",
-          "Ocelot": "12.1.0-unstable0009"
+          "Ocelot": "12.0.1"
         },
         "runtime": {
           "Ctr.AuthPlatform.Gateway.dll": {}
@@ -240,7 +240,7 @@
           "Microsoft.NETCore.Platforms": "2.1.0"
         }
       },
-      "Ocelot/12.1.0-unstable0009": {
+      "Ocelot/12.0.1": {
         "dependencies": {
           "FluentValidation": "7.6.104",
           "Microsoft.AspNetCore": "2.1.1",
@@ -250,8 +250,8 @@
         },
         "runtime": {
           "lib/netstandard2.0/Ocelot.dll": {
-            "assemblyVersion": "12.1.0.0",
-            "fileVersion": "12.1.0.0"
+            "assemblyVersion": "12.0.1.0",
+            "fileVersion": "12.0.1.0"
           }
         },
         "compile": {
@@ -275,8 +275,7 @@
       "Ctr.AhphOcelot/1.0.0": {
         "dependencies": {
           "Dapper": "1.50.5",
-          "Ocelot": "12.1.0-unstable0009",
-          "System.Data.SqlClient": "4.5.1"
+          "Ocelot": "12.0.1"
         },
         "runtime": {
           "Ctr.AhphOcelot.dll": {}
@@ -3284,12 +3283,12 @@
       "path": "netstandard.library/2.0.3",
       "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
     },
-    "Ocelot/12.1.0-unstable0009": {
+    "Ocelot/12.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-uEwKx4x0tU3Kast1D0FpyGYUuEZDxWfAvqJerQ2DT8pDEf9l+Y/qSuR8HEK1KW25AWPOBhXs3Z35xwB6UN5zag==",
-      "path": "ocelot/12.1.0-unstable0009",
-      "hashPath": "ocelot.12.1.0-unstable0009.nupkg.sha512"
+      "sha512": "sha512-+e1YibrS6g1Kp5Qs48HHuxWWhAypuJvm/LD9840bpih1qmq/LoHuqCZSy15fUSTkMoM5O3ES6NYzmPHvgHeTWg==",
+      "path": "ocelot/12.0.1",
+      "hashPath": "ocelot.12.0.1.nupkg.sha512"
     },
     "System.ComponentModel/4.3.0": {
       "type": "package",

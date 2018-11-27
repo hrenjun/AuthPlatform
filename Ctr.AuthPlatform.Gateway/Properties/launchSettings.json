@@ -18,11 +18,11 @@
     "Ctr.AuthPlatform.Gateway": {
       "commandName": "Project",
       "launchBrowser": true,
-      "applicationUrl": "https://localhost:7777",
+      "launchUrl": "ctr/values",
+      "applicationUrl": "http://localhost:7777",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
-
     }
   }
 }

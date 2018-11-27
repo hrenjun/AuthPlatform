@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Ocelot.DependencyInjection;
+using Ocelot.Middleware;
 
 namespace Ctr.AuthPlatform.Gateway
 {
@@ -37,7 +38,10 @@ namespace Ctr.AuthPlatform.Gateway
             {
                 app.UseDeveloperExceptionPage();
             }
-
+            else
+            {
+                app.UseExceptionHandler("/Error");
+            }
             app.UseAhphOcelot().Wait();
         }
     }

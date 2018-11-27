@@ -2667,7 +2667,7 @@
           "lib/netstandard1.3/Newtonsoft.Json.Bson.dll": {}
         }
       },
-      "Ocelot/12.1.0-unstable0009": {
+      "Ocelot/12.0.1": {
         "type": "package",
         "dependencies": {
           "FluentValidation": "7.6.104",
@@ -4401,8 +4401,7 @@
         "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
           "Dapper": "1.50.5",
-          "Ocelot": "12.0.1",
-          "System.Data.SqlClient": "4.4.2"
+          "Ocelot": "12.0.1"
         },
         "compile": {
           "bin/placeholder/Ctr.AhphOcelot.dll": {}
@@ -7045,14 +7044,14 @@
         "newtonsoft.json.bson.nuspec"
       ]
     },
-    "Ocelot/12.1.0-unstable0009": {
-      "sha512": "uEwKx4x0tU3Kast1D0FpyGYUuEZDxWfAvqJerQ2DT8pDEf9l+Y/qSuR8HEK1KW25AWPOBhXs3Z35xwB6UN5zag==",
+    "Ocelot/12.0.1": {
+      "sha512": "+e1YibrS6g1Kp5Qs48HHuxWWhAypuJvm/LD9840bpih1qmq/LoHuqCZSy15fUSTkMoM5O3ES6NYzmPHvgHeTWg==",
       "type": "package",
-      "path": "ocelot/12.1.0-unstable0009",
+      "path": "ocelot/12.0.1",
       "files": [
         ".signature.p7s",
         "lib/netstandard2.0/Ocelot.dll",
-        "ocelot.12.1.0-unstable0009.nupkg.sha512",
+        "ocelot.12.0.1.nupkg.sha512",
         "ocelot.nuspec"
       ]
     },
@@ -11756,7 +11755,7 @@
       "Ctr.AhphOcelot >= 1.0.0",
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.NETCore.App >= 2.1.0",
-      "Ocelot >= 12.1.0-unstable0009"
+      "Ocelot >= 12.0.1"
     ]
   },
   "packageFolders": {
@@ -11766,11 +11765,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\工具\\core api\\AuthPlatform\\Ctr.AuthPlatform.Gateway\\Ctr.AuthPlatform.Gateway.csproj",
+      "projectUniqueName": "E:\\工具\\core api\\New\\AuthPlatform\\Ctr.AuthPlatform.Gateway\\Ctr.AuthPlatform.Gateway.csproj",
       "projectName": "Ctr.AuthPlatform.Gateway",
-      "projectPath": "E:\\工具\\core api\\AuthPlatform\\Ctr.AuthPlatform.Gateway\\Ctr.AuthPlatform.Gateway.csproj",
+      "projectPath": "E:\\工具\\core api\\New\\AuthPlatform\\Ctr.AuthPlatform.Gateway\\Ctr.AuthPlatform.Gateway.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "E:\\工具\\core api\\AuthPlatform\\Ctr.AuthPlatform.Gateway\\obj\\",
+      "outputPath": "E:\\工具\\core api\\New\\AuthPlatform\\Ctr.AuthPlatform.Gateway\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -11789,8 +11788,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "E:\\工具\\core api\\AuthPlatform\\Ctr.AhphOcelot\\Ctr.AhphOcelot.csproj": {
-              "projectPath": "E:\\工具\\core api\\AuthPlatform\\Ctr.AhphOcelot\\Ctr.AhphOcelot.csproj"
+            "E:\\工具\\core api\\New\\AuthPlatform\\Ctr.AhphOcelot\\Ctr.AhphOcelot.csproj": {
+              "projectPath": "E:\\工具\\core api\\New\\AuthPlatform\\Ctr.AhphOcelot\\Ctr.AhphOcelot.csproj"
             }
           }
         }
@@ -11817,7 +11816,7 @@
           },
           "Ocelot": {
             "target": "Package",
-            "version": "[12.1.0-unstable0009, )"
+            "version": "[12.0.1, )"
           }
         },
         "imports": [
