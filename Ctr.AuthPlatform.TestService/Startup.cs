@@ -37,7 +37,7 @@ namespace Ctr.AuthPlatform.TestService
             }
         
 
-            app.UseHttpsRedirection();
+           
             app.UseMvc();
         }
     }

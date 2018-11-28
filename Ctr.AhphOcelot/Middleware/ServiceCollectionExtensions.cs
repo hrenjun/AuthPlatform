@@ -5,8 +5,6 @@ using Microsoft.Extensions.Options;
 using Ocelot.Configuration.Repository;
 using Ocelot.DependencyInjection;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Ctr.AhphOcelot.Middleware
 {
@@ -17,6 +15,11 @@ namespace Ctr.AhphOcelot.Middleware
     /// </summary>
     public static class ServiceCollectionExtensions
     {
+        /// <summary>
+        /// 添加默认的注入方式，所有需要传入的参数都是用默认值
+        /// </summary>
+        /// <param name="builder"></param>
+        /// <returns></returns>
         public static IOcelotBuilder AddAhphOcelot(this IOcelotBuilder builder, Action<AhphOcelotConfiguration> option)
         {
             builder.Services.Configure(option);

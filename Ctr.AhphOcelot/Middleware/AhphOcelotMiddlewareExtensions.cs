@@ -28,17 +28,20 @@ namespace Ctr.AhphOcelot.Middleware
     /// </summary>
     public static class AhphOcelotMiddlewareExtensions
     {
+
         public static async Task<IApplicationBuilder> UseAhphOcelot(this IApplicationBuilder builder)
         {
             await builder.UseAhphOcelot(new OcelotPipelineConfiguration());
             return builder;
         }
+
         public static async Task<IApplicationBuilder> UseAhphOcelot(this IApplicationBuilder builder, Action<OcelotPipelineConfiguration> pipelineConfiguration)
         {
             var config = new OcelotPipelineConfiguration();
             pipelineConfiguration?.Invoke(config);
             return await builder.UseAhphOcelot(config);
         }
+
         public static async Task<IApplicationBuilder> UseAhphOcelot(this IApplicationBuilder builder, OcelotPipelineConfiguration pipelineConfiguration)
         {
             //重写创建配置方法
@@ -48,12 +51,11 @@ namespace Ctr.AhphOcelot.Middleware
 
             return CreateOcelotPipeline(builder, pipelineConfiguration);
         }
+
         private static IApplicationBuilder CreateOcelotPipeline(IApplicationBuilder builder, OcelotPipelineConfiguration pipelineConfiguration)
         {
             var pipelineBuilder = new OcelotPipelineBuilder(builder.ApplicationServices);
 
-            //pipelineBuilder.BuildOcelotPipeline(pipelineConfiguration);
-            //使用自定义管道扩展 2018-11-15 金焰的世界
             pipelineBuilder.BuildOcelotPipeline(pipelineConfiguration);
 
             var firstDelegate = pipelineBuilder.Build();
@@ -74,6 +76,7 @@ namespace Ctr.AhphOcelot.Middleware
 
             return builder;
         }
+
         private static async Task<IInternalConfiguration> CreateConfiguration(IApplicationBuilder builder)
         {
             //提取文件配置信息
@@ -85,11 +88,13 @@ namespace Ctr.AhphOcelot.Middleware
             {
                 ThrowToStopOcelotStarting(internalConfig);
             }
+
             //配置信息缓存，这块需要注意实现方式，因为后期我们需要改造下满足分布式架构,这篇不做讲解
             var internalConfigRepo = builder.ApplicationServices.GetService<IInternalConfigurationRepository>();
             internalConfigRepo.AddOrReplace(internalConfig.Data);
             return GetOcelotConfigAndReturn(internalConfigRepo);
         }
+
         private static bool IsError(Response response)
         {
             return response == null || response.IsError;
@@ -111,6 +116,7 @@ namespace Ctr.AhphOcelot.Middleware
         {
             throw new Exception($"Unable to start Ocelot, errors are: {string.Join(",", config.Errors.Select(x => x.ToString()))}");
         }
+
         private static void ConfigureDiagnosticListener(IApplicationBuilder builder)
         {
             var env = builder.ApplicationServices.GetService<IHostingEnvironment>();

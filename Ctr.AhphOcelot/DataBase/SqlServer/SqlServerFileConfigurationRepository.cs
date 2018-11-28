@@ -17,7 +17,7 @@ namespace Ctr.AhphOcelot.DataBase.SqlServer
     /// 2018-11-11
     /// 使用SqlServer来实现配置文件仓储接口
     /// </summary>
-    class SqlServerFileConfigurationRepository : IFileConfigurationRepository
+    public class SqlServerFileConfigurationRepository : IFileConfigurationRepository
     {
         private readonly AhphOcelotConfiguration _option;
         public SqlServerFileConfigurationRepository(AhphOcelotConfiguration option)
@@ -25,8 +25,7 @@ namespace Ctr.AhphOcelot.DataBase.SqlServer
             _option = option;
         }
 
-
-           /// <summary>
+        /// <summary>
         /// 从数据库中获取配置信息
         /// </summary>
         /// <returns></returns>
@@ -136,7 +135,7 @@ namespace Ctr.AhphOcelot.DataBase.SqlServer
             return new OkResponse<FileConfiguration>(file);
         }
 
-
+        //由于数据库存储可不实现Set接口直接返回
         public async Task<Response> Set(FileConfiguration fileConfiguration)
         {
             return new OkResponse();
